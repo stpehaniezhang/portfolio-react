@@ -1,0 +1,258 @@
+@font-face {
+	font-family: 'proxima-regular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+    --blue: #302D42;
+    --sand: #FFFAEE;
+    --red: #F6002F;
+  }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  position:relative;
+  overflow-x:hidden 
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body { 
+    background-color: var(--sand);
+    font-family: 'proxima-regular', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  z-index: 100;
+}
+
+.navbar-container {
+  background-color: var(--blue);
+  border-radius: 3px;
+  position: fixed;
+  width: 35%;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  height: 2vh;
+  box-shadow: rgba(48, 45, 66, 0.5) 0px 3px 8px;
+  z-index: 1000;
+}
+
+.navbar-links {
+    color: var(--sand);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    -webkit-animation: MoveDown 0.25s linear;
+}
+
+.navbar-links:hover {
+    font-weight: 600;
+    -webkit-animation: MoveUp 0.25s linear;
+    animation-fill-mode: forwards;
+}
+
+.navbar-links-active {
+    margin-top: -0.35rem;
+    color: var(--sand);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navbar-links-active .circle {
+    display: block;
+    margin-top: 0.35rem;
+}
+
+.navbar-links:active .circle {
+    display: block;
+    opacity: 100%;
+}
+
+.circle {
+    background: var(--red);
+    border-radius: 50%;
+    width: 5.5px;
+    height: 5.5px;
+    display: none;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+}
+
+.navbar-links:hover .circle {
+    display: block;
+    opacity: 0;
+    -webkit-animation: MoveUpFade 0.25s linear;
+    animation-fill-mode: forwards;
+}
+
+.nightmode-container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -75px;
+  width: 100%;
+  z-index: 10;
+}
+
+.nightmode-image {
+  display: flex;
+  margin-right: 16vw;
+}
+
+.hamburger-image {
+  height: 15px;
+}
+
+.x-image {
+  height: 15px;
+}
+
+@keyframes MoveUp {
+    100% {
+      transform: translateY(-0.15rem);
+    }
+  }
+
+@keyframes MoveUpFade {
+    100% {
+      transform: translateY(-0.15rem);
+      opacity: 100%;
+    }
+  }
+
+  @keyframes MoveDown {
+    from {
+        transform: translateY(-0.15rem);
+    }
+    to {
+        transform: translateY(0rem);
+    }
+  }
+
+@keyframes MoveDownFade {
+    from {
+      transform: translateY(0.15rem);
+      opacity: 100%;
+    }
+    to {
+        transform: translateY(0rem);
+        opacity: 0%;
+    }
+  }
+
+  .footer-container {
+    margin-top: 10vh;
+  }
+
+  .angled-bottom {
+    background-color: var(--red);
+    height: 20vh;
+    width: 100%;
+    transform: skewY(5.5deg);
+    z-index: -1;
+  }
+
+  .straight-bottom {
+    background-color: var(--red);
+    z-index: 2;
+    margin-top: -10vh;
+    height: 20vh;
+    position: relative;
+    text-align: center;
+    display: flex;       
+    align-items: flex-end; 
+  }
+
+  .footer-contents {
+    margin: 0px auto;
+    margin-bottom: 3vh;
+  }
+
+  .footer-margin {
+    color: var(--sand);
+    margin-left: 1vw;
+  }
+  
+  header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+  }
+  
+  header div,
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .nightmode-container{
+      visibility: hidden;
+    }
+
+    .navbar-container{
+      height: 60%;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      width: 100%;
+      padding: 0 2rem;
+      background-color: var(--blue);
+      margin-bottom: 30px;
+    }
+
+    header .nav-btn {
+      visibility: visible;
+      opacity: 1;
+    }
+  
+    header nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--blue);
+      transition: 0.25s;
+      transform: translateY(-100vh);
+    }
+  
+    header .responsive_nav {
+      transform: none;
+    }
+  
+    nav .nav-close-btn {
+      position: absolute;
+      top: 0.5rem;
+      left: 2rem;
+    }
+  }

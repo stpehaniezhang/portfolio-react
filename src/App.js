@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import Design from './components/pages/Design';
+import Code from './components/pages/Code';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
+import Footer from './components/Footer';
+import Stegvision from './components/pages/portfolio/Stegvision'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <NavBar/>
+      <Routes>
+        <Route exact path='/home' element={<Home/>}/>
+        <Route exact path='/design' element={<Design/>}/>
+        <Route exact path='/code' element={<Code/>}/>
+        <Route exact path='/about' element={<About/>}/>
+        <Route exact path='/contact' element={<Contact/>}/>
+        <Route exact path='/stegvision' element={<Stegvision/>}/>
+      </Routes>
+    </Router>
+    <Footer />
+    </>
   );
 }
 
