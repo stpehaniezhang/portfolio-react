@@ -19,42 +19,20 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'gibeon';
+	src: url('../assets/fonts/gibeon-extralightse-webfont.woff') format('woff')
+}
+
 :root {
     --blue: #302D42;
     --sand: #FFFAEE;
     --red: #F6002F;
     --beige: #BAB5AB;
-  }
-
-.tag {
-    border-radius: 3px;
-    border: none;
-    font-family: 'proxima-bold', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: var(--blue);
-    text-decoration: none;
-    margin-right: 10px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: -moz-none;
-    -o-user-select: none;
-    user-select: none;
-    font-size: 10px;
-    padding: 5px 12px 5px 12px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
 }
-
-.rebrand {
-    background: #8BFF89;
-}
-
-.case-study {
-    background: #2EFFFF;
-}
-
-.social-media-posts {
-    background: #BB86FF;
+  
+body {
+    font-family: 'proxima-regular', Helvetica, Arial, sans-serif;
+    color: var(--sand);
+    background: var(--sand);
 }

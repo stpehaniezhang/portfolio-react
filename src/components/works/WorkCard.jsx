@@ -1,29 +1,29 @@
 import React from 'react';
-import './DesignSection.css';
+import './Work.css';
 import { Link } from 'react-router-dom';
 import { PortfolioTags } from './PortfolioTags';
 
-function DesignCard(props) {
+function WorkCard(props) {
 
   const tagStyle = props.tag;
 
   return (
     <>
-      <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap'>
+      <li className='card'>
+        <Link className='card-link' to={props.path}>
+          <figure className='card-wrap'>
             <img
-              className='cards__item__img'
-              alt='Travel'
+              className='card-img'
+              alt='Work'
               src={props.src}
             />
           </figure>
-          <div className='cards__item__info'>
-            <div className='card_info_container'>
-              <h5 className='cards__item__title'>{props.title}<span className='cards__item__year'>  ―  {props.year}</span></h5>
-              <h5 className='cards__item__text'>{props.text}</h5>
+          <div className='card-info'>
+            <div>
+                <h5 className='card-title'>{props.title}<span className='card-year'>  ―  {props.year}</span></h5>
+                <h5 className='card-text'>{props.text}</h5>
             </div>
-            <div className='design-portfolio'>
+            <div className='portfolio-tags'>
               {(() => {
                 const arr = [];
                 var i = 0;
@@ -43,4 +43,4 @@ function DesignCard(props) {
   );
 }
 
-export default DesignCard;
+export default WorkCard;

@@ -1,39 +1,4 @@
-@font-face {
-	font-family: 'proxima-regular';
-	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
-	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
-		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
-		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'proxima-bold';
-	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
-	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
-		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
-		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'gibeon';
-	src: url('../assets/fonts/gibeon-extralightse-webfont.woff') format('woff')
-}
-
-:root {
-    --blue: #302D42;
-    --sand: #FFFAEE;
-    --red: #F6002F;
-  }
-  
-  body {
-    font-family: 'proxima-regular', Helvetica, Arial, sans-serif;
-    color: var(--sand);
-  }
+@import '../Constants.css';
 
   .cards {
     background: var(--sand);
@@ -43,7 +8,7 @@
     padding-right: 1vw;
   }
 
-  .cards__container {
+  .cards-container {
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -51,16 +16,16 @@
     width: 80%;
   }
   
-  .cards__wrapper {
+  .cards-wrapper {
     position: relative;
   }
   
-  .cards__items {
+  .cards-group {
     margin-bottom: 24px;
     padding: 0;
   }
   
-  .cards__item {
+  .card {
     display: flex;
     flex: 1;
     margin: 0 1rem;
@@ -70,7 +35,7 @@
     background-color: var(--blue);
   }
   
-  .cards__item__link {
+  .card-link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -79,7 +44,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .card-wrap {
     margin: 0 auto;
     position: relative;
     width: 90%;
@@ -96,7 +61,7 @@
     margin: 0;
   }
   
-  .cards__item__img {
+  .card-img {
     position: absolute;
     top: 0;
     right: 0;
@@ -111,31 +76,32 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .card-img:hover {
     transform: scale(1.01);
   }
   
-  .cards__item__info {
+  .card-info {
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;  
     flex-direction: column; 
+    height: 100%;
     justify-content: space-between;
   }
   
-  .cards__item__title {
+  .card-title {
     color: var(--sand);
     font-family: 'proxima-bold';
     font-size: 16px;
     margin-bottom: 10px;
   }
 
-  .cards__item__year {
+  .card-year {
     font-family: 'proxima-regular';
   }
 
-  .cards__item__text {
+  .card-text {
     color: var(--sand);
     font-size: 12px;
   }
@@ -160,7 +126,7 @@
     margin-right: 45px;
   }
 
-  .design-portfolio {
+  .portfolio-tags {
     margin-bottom: 5px;
     display: flex;
     flex-direction: row;
@@ -174,16 +140,16 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .cards-group {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .card {
       margin-bottom: 2rem;
     }
-    .cards__container {
+    .cards-container {
       width: 90%;
     }
   }

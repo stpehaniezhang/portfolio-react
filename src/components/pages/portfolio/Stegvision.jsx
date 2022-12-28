@@ -1,10 +1,10 @@
 import React from 'react';
-import PortfolioSection from '../../PortfolioSection'
+import WorkDetails from '../../WorkDetails'
 
 function stegvision() {
   return (
     <>
-      <PortfolioSection/>
+      <WorkDetails/>
     </>
   );
 }

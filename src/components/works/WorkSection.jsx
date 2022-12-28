@@ -1,19 +1,19 @@
 import React from 'react'
-import DesignCard from './DesignCard'
-import './DesignSection.css'
-import htvimg from '../assets/images/HTV.png'
-import stegimg from '../assets/images/Steg.png'
+import WorkCard from './WorkCard'
+import './Work.css'
+import htvimg from '../../assets/images/HTV.png'
+import stegimg from '../../assets/images/Steg.png'
 
-function DesignSection() {
+function WorkSection() {
   return (
     <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
+      <div className='cards-container'>
+        <div className='cards-wrapper'>
           <div className='design-container'>
               <p className='text-header'>designs</p>
           </div>
-          <ul className='cards__items'>
-            <DesignCard
+          <ul className='cards-group'>
+            <WorkCard
               src={stegimg}
               title='stegvision'
               year='2021'
@@ -23,7 +23,7 @@ function DesignSection() {
               tagtitle={['rebrand','social media posts', 'case study']}
               path='/stegvision'
             />
-            <DesignCard
+            <WorkCard
               src={htvimg}
               title='hack the valley'
               year='2020'
@@ -35,8 +35,8 @@ function DesignSection() {
               path='/home'
             />
           </ul>
-          <ul className='cards__items'>
-            <DesignCard
+          <ul className='cards-group'>
+            <WorkCard
               src={htvimg}
               title='hack the valley'
               year='2021'
@@ -45,7 +45,7 @@ function DesignSection() {
               tagtitle={['rebrand','social media posts']}
               path='/home'
             />
-            <DesignCard
+            <WorkCard
               src={htvimg}
               title='hack the valley'
               year='2021'
@@ -54,7 +54,7 @@ function DesignSection() {
               tagtitle={['rebrand','social media posts']}
               path='/home'
             />
-            <DesignCard
+            <WorkCard
               src={htvimg}
               title='hack the valley'
               year='2021'
@@ -70,4 +70,5 @@ function DesignSection() {
   )
 }
 
-export default DesignSection;
+
+export default WorkSection;

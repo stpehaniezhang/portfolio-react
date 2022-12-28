@@ -1,5 +1,5 @@
 import React from 'react'
-import './Main-Component.css';
+import './NavBar.css';
 
 function Footer() {
   return (

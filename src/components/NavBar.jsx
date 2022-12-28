@@ -1,5 +1,5 @@
 import React from 'react'
-import './Main-Component.css';
+import './NavBar.css';
 import { NavLink } from 'react-router-dom';
 import nightmode from '../assets/images/NightMode.svg';
 import hamburger from '../assets/images/Hamburger.svg';
@@ -21,8 +21,7 @@ function NavBar() {
         <nav ref={navRef} className="navbar">
             <div className="navbar-container">
                 <NavLink to="/home" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>home<span className='circle'></span></NavLink>
-                <NavLink to="/design" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>design<span className='circle'></span></NavLink>
-                <NavLink to="/code" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>code<span className='circle'></span></NavLink>
+                <NavLink to="/works" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>works<span className='circle'></span></NavLink>
                 <NavLink to="/about" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>about<span className='circle'></span></NavLink>
                 <NavLink to="/contact" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>contact<span className='circle'></span></NavLink>
                 <a href={pdf} target="_blank" onClick={showNavbar} className='navbar-links' rel="noreferrer noopener">resume<span className='circle'></span></a>
