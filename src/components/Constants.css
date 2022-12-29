@@ -36,3 +36,24 @@ body {
     color: var(--sand);
     background: var(--sand);
 }
+
+hr {
+    border: 0.5px solid var(--blue);
+    width: 60%;
+    box-shadow: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-header {
+    font-family: 'gibeon', Helvetica, Arial, sans-serif;
+    color: var(--blue);
+    text-align: left;
+    font-size: 48px;
+    line-height: 0;
+	width: 95%;
+  }
+
+  .no-margin {
+	margin: 0;
+  }
