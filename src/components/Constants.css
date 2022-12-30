@@ -50,9 +50,8 @@ hr {
     color: var(--blue);
     text-align: left;
     font-size: 48px;
-    line-height: 0;
 	width: 95%;
-  }
+}
 
   .no-margin {
 	margin: 0;

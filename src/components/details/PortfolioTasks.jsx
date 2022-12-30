@@ -8,7 +8,7 @@ function PortfolioTasks(props) {
   return (
     <>
           <div className='work-wrapper'>
-            <p className='small-header'>what i have done</p>
+            <p className='small-header'>during my time there...</p>
                 <div className='task-container'>
               {(() => {
                 const arr = [];

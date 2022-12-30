@@ -26,12 +26,11 @@ function stegvision() {
           'redesign existing website & create a new dashboard to help move the event online due to COVID',
           'create posts to promote the event on social media platforms',
           'merch and swag designs, posters and hacker/sponsor packages etc.']}
-          />
+        />
           <div className='container-row'>
             <div className='task-number-container'>
               <p className='task-number'>01</p>
             </div>
-
             <p className='small-header left-margin'>rebrand</p>
           </div>
       </div>
