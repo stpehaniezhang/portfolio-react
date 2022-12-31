@@ -6,7 +6,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
-import Stegvision from './components/pages/portfolio/Stegvision'
+import Hackthevalley from './components/pages/portfolio/Hackthevalley'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route exact path='/works' element={<Works/>}/>
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
-        <Route exact path='/stegvision' element={<Stegvision/>}/>
+        <Route exact path='/hackthevalley' element={<Hackthevalley/>}/>
       </Routes>
     </Router>
     <Footer />

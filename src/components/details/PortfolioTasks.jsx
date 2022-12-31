@@ -19,8 +19,8 @@ function PortfolioTasks(props) {
                         <div className='task-number-container bottom-margin'>
                             <p className='task-number'>0{i + 1}</p>
                         </div>
-                        <p className='text-desc'>{props.tasktitle[i]}</p>
-                        <p className='project-desc'>{props.taskdesc[i]}</p>
+                        <p className='text-desc blue'>{props.tasktitle[i]}</p>
+                        <p className='project-desc blue'>{props.taskdesc[i]}</p>
                     </div>
                   );
                   i++;

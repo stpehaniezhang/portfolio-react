@@ -23,7 +23,6 @@ function NavBar() {
                 <NavLink to="/home" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>home<span className='circle'></span></NavLink>
                 <NavLink to="/works" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>works<span className='circle'></span></NavLink>
                 <NavLink to="/about" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>about<span className='circle'></span></NavLink>
-                <NavLink to="/contact" onClick={showNavbar} className={({ isActive }) => (isActive ? 'navbar-links-active' : 'navbar-links')}>contact<span className='circle'></span></NavLink>
                 <a href={pdf} target="_blank" onClick={showNavbar} className='navbar-links' rel="noreferrer noopener">resume<span className='circle'></span></a>
             </div>
             <button className="nav-btn nav-close-btn" onClick={showNavbar}><img className='x-image' src={x} alt='cancel button'></img></button>

@@ -21,7 +21,7 @@ function WorkSection() {
               Technology That Can Solve Mission Critical Problems Across Industry.'
               tag={['rebrand','social-media-posts', 'case-study']}
               tagtitle={['rebrand','social media posts', 'case study']}
-              path='/stegvision'
+              path='/hackthevalley'
             />
             <WorkCard
               src={htvimg}
