@@ -10,7 +10,7 @@ function WorkSection() {
       <div className='cards-container'>
         <div className='cards-wrapper'>
           <div className='design-container'>
-              <p className='text-header'>designs</p>
+              <p className='text-header'>Works</p>
           </div>
           <ul className='cards-group'>
             <WorkCard
