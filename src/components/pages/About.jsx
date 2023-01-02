@@ -17,6 +17,7 @@ function about() {
           <div className='design-container'>
               <p className='text-header'>About me</p>
               <div className='half-text'>
+              <img className='half-img' src={self} alt='Self'></img>
                 <p className='half-para blue'>
                   <br/>
                 Hello! I’m Stephanie :-) <br/><br/>
@@ -27,9 +28,11 @@ function about() {
                 I'm studying Economics, Statistics & Visual Studies at the University of Toronto, graduating in April '23.
                 <br/><br/>
                 Previously, I worked as a freelance designer & developer and on my startup, Pinch. I'm currently finishing up
-                my work study experience in February '23 at University of Toronto, Missisauga's ICUBE.
+                my work study experience at University of Toronto, Missisauga's ICUBE.
+                <br/><br/>
+                I'm always interested in taking up new projects & opportunities! You can contact me
+                by email or linkedin!
                 </p>
-                <img className='half-img' src={self} alt='Self'></img>
               </div>
               <div className='fun-facts-container'>
                 <div className='fact-item'>
@@ -42,7 +45,6 @@ function about() {
                   <p className='project-desc blue'>i’ve been a self-taught traditional artist since 2014. 
                   <br/><br/>check out some of my pieces here :-)</p>
                 </div>
-
               </div>
           </div>
           
