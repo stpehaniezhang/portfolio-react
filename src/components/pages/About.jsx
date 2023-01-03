@@ -1,8 +1,10 @@
 import React from 'react'
 import '../works/Work.css';
 import '../WorkDetails.css';
+import '../pages/portfolio/main-portfolio.css';
 import '../Constants.css';
 import self from '../../assets/images/Self.png';
+import ArrowDown from '../../assets/images/ArrowDown.svg';
 import Helmet from 'react-helmet';
 
 function about() {
@@ -20,30 +22,40 @@ function about() {
               <img className='half-img' src={self} alt='Self'></img>
                 <p className='half-para blue'>
                   <br/>
-                Hello! I’m Stephanie :-) <br/><br/>
-                I was born and raised in Vancouver, Beautiful British Columbia.
+                Hello! I’m <span className='bold'>Stephanie</span> :-) <br/><br/>
+                I was born and raised in <span className='bold'>Vancouver</span>, Beautiful British Columbia.
                 <br/><br/>
-                I’ve been a visual artist for 9+ years as well as a designer & developer for 4+ years. 
+                I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years. 
                 <br/><br/>
-                I'm studying Economics, Statistics & Visual Studies at the University of Toronto, graduating in April '23.
+                I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
                 <br/><br/>
-                Previously, I worked as a freelance designer & developer and on my startup, Pinch. I'm currently finishing up
-                my work study experience at University of Toronto, Missisauga's ICUBE.
+                Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <span className='bold'>Pinch</span>. I'm currently finishing up
+                my work study experience at <span className='bold'>University of Toronto, Missisauga's ICUBE</span>.
                 <br/><br/>
                 I'm always interested in taking up new projects & opportunities! You can contact me
-                by email or linkedin!
+                by <a className='links'target="_blank" rel="noreferrer"  href='mailto:stephaniey.zhang@mail.utoronto.ca'>email</a> or <a className='links' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/stephaniezhang25/'>linkedin</a>!
                 </p>
+              </div>
+              <div className='down-arrow-container'>
+                <p className='text-desc blue bottom-margin'>more facts</p>
+                <img src={ArrowDown} alt='arrow' className='img-mid'></img>
               </div>
               <div className='fun-facts-container'>
                 <div className='fact-item'>
                   <p className='text-desc blue'>gaming</p>
-                  <p className='project-desc blue'>i currently play collegiate call of duty for University of Toronto.
-                  <br/><br/>I also used to play CSGO, rainbow six siege and other FPS games.</p>
+                  <p className='project-desc blue'>I currently play competitive <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate Call of Duty</a> for University of Toronto.
+                  <br/><br/>I also used to play CSGO and other FPS games.</p>
                 </div>
                 <div className='fact-item'>
                   <p className='text-desc blue'>art</p>
-                  <p className='project-desc blue'>i’ve been a self-taught traditional artist since 2014. 
-                  <br/><br/>check out some of my pieces here :-)</p>
+                  <p className='project-desc blue'>I’ve been a self-taught traditional artist since 2014. 
+                  <br/><br/>Check out some of my pieces <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>here</a> :-)</p>
+                </div>
+                <div className='fact-item'>
+                  <p className='text-desc blue'>music</p>
+                  <p className='project-desc blue'>I played piano for 12 years, violin for 6 years and clarinet for 5 years!
+                  In high school, I was able to go to Ireland to perform along with my <a className='links' target="_blank" rel="noreferrer" href='https://byngband.com/lord-byng-band-online/'>wind ensemble</a>.
+                  </p>
                 </div>
               </div>
           </div>

@@ -5,12 +5,19 @@ import './main-portfolio.css';
 import PortfolioHeader from '../../details/PortfolioHeader';
 import PortfolioTasks from '../../details/PortfolioTasks';
 import htv1 from '../../../assets/images/HTV1.svg';
+import htv1big from '../../../assets/images/HTV1big.svg';
 import htv2 from '../../../assets/images/HTV2.svg';
 import htv3 from '../../../assets/images/HTV3.svg';
+import ModalImage from "react-modal-image";
+import ScrollToTop from "react-scroll-up";
+import Arrow from '../../../assets/images/Arrow.svg';
 
 function hackthevalley() {
   return (
     <>
+    <ScrollToTop showUnder={160} style={{bottom: 30, zIndex:1000}}>
+      <img src={Arrow} alt='Scroll to Top'></img>
+    </ScrollToTop>
       <Helmet>
         <title>Stephanie Zhang | Hack the Valley</title>
       </Helmet>
@@ -40,26 +47,35 @@ function hackthevalley() {
           <p className='full-para blue'>Hack the Valley was looking to update their brand identity intime for 
           their 5th iteration of the hackathon. While discussing with the team, it was agreed that the goal was to
           simplify the logo while providing more uniquely identifyable logo and branding.</p>
-              <img
-                className='reg-img'
-                alt='Work'
-                src={htv1}
-              />
+              <ModalImage
+              className='reg-img'
+              small={htv1}
+              large={htv1big}
+              imageBackgroundColor = '#FFFAEE'
+              hideZoom = "true"
+              hideDownload = "true"
+              alt=''/>
           <p className='subtitle'>construction</p>
           <p className='full-para top blue'>The finalized logo is designed to be minimalistic while keeping subtle aspects that represent the brand.
           The colours chosen is representative of both the colours of green valleys as well a computer's terminal. The typefaces chosen
           includes one clear, easily legible font as well as one that resembles that of a computer's terminal.</p>
-              <img
-                className='reg-img'
-                alt='Work'
-                src={htv2}
-              />
-          <p className='subtitle'>finalized</p>
-              <img
+          <ModalImage
               className='reg-img'
-                alt='Work'
-                src={htv3}
-              />
+              small={htv2}
+              large={htv2}
+              imageBackgroundColor = '#FFFAEE'
+              hideZoom = "true"
+              hideDownload = "true"
+              alt=''/>
+          <p className='subtitle'>finalized</p>
+            <ModalImage
+              className='reg-img'
+              small={htv3}
+              large={htv3}
+              imageBackgroundColor = 'none'
+              hideZoom = "true"
+              hideDownload = "true"
+              alt=''/>
               <hr></hr>
 <div className='container-row-no-flex bottom-margin'>
             <div className='task-number-container'>

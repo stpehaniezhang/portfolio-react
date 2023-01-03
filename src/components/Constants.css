@@ -45,6 +45,13 @@ hr {
     margin-bottom: 40px;
 }
 
+a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
+	font-size: 16px;
+	text-decoration: none;
+	color: var(--red);
+	border-bottom: 1px solid var(--red);
+}
+
 .text-header {
     font-family: 'gibeon', Helvetica, Arial, sans-serif;
     color: var(--blue);
@@ -78,6 +85,10 @@ hr {
 
   .half {
 	width: 30%;
+  }
+
+  .bold {
+	font-family: 'proxima-bold', Arial, Helvetica, sans-serif;
   }
 
   .quarter {

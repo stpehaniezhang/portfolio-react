@@ -7,7 +7,7 @@ function Footer() {
         <div className='angled-bottom'></div>
         <div className='straight-bottom'>
             <div className='footer-contents'>
-                <a href='mailto::stephaniey.zhang@mail.utoronto.ca' target="_blank" rel="noreferrer noopener" className='footer-margin'>
+                <a href='mailto:stephaniey.zhang@mail.utoronto.ca' target="_blank" rel="noreferrer noopener" className='footer-margin'>
                 <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20.0803 0H1.91972C0.844677 0 0 0.789744 0 1.79487V12.2051C0 13.1744 0.921535 14 2.0349 14H20.0803C21.1553 14 22 13.2103 22 12.2051V1.79487C22 0.789744 21.117 0 20.0803 0ZM20.4641 11.5231L15.3193 6.42564L20.4641 2.33333V11.5231ZM1.53562 2.33333L6.64208 6.53333L1.53562 11.5231V2.33333ZM10.8655 8.07705L8.44655 6.10263C8.40825 6.03076 8.36968 5.99496 8.33138 5.92309C8.25452 5.85123 8.17792 5.81542 8.10106 5.77961L2.80256 1.43589H19.2354L10.8655 8.07705ZM7.79412 7.50264L10.3282 9.58469C10.4817 9.69236 10.6354 9.76423 10.8274 9.76423C11.0195 9.76423 11.1729 9.69236 11.3266 9.58469L14.1294 7.35911L19.3893 12.5642H2.61096L7.79412 7.50264Z" fill="#FFFAEE"/>
                 </svg>

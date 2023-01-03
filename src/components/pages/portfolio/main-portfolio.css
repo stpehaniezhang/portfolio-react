@@ -48,10 +48,20 @@
 .reg-img {
     width: 100%;
     margin-bottom: 20px;
+    transition: all 0.2s linear;
+}
+
+.reg-img:hover {
+    transform: scale(1.01);
 }
 
 .half-img {
     width: 35%;
+    transition: all 0.2s linear;
+}
+
+.half-img:hover {
+    transform: scale(1.01);
 }
 
 .top {
@@ -69,14 +79,30 @@
     position: relative;
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 30px;
     margin-bottom: 30px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.down-arrow-container {
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 30px;
 }
 
 .fact-item {
-    width: 40%;
+    width: 45%;
+    margin-top: 35px;
+}
+
+.img-mid {
+    width: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -100,7 +126,7 @@
         margin-top: 20px;
     }
 
-    .fact-item {
-        width: 45%;
+    .main {
+        width: 90%;
     }
 }
