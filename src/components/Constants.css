@@ -24,6 +24,26 @@
 	src: url('../assets/fonts/gibeon-extralightse-webfont.woff') format('woff')
 }
 
+@font-face {
+	font-family: 'satoshi-medium';
+	src: url('../assets/fonts/Satoshi/Satoshi-Medium.woff') format('woff')
+}
+
+@font-face {
+	font-family: 'satoshi-bold';
+	src: url('../assets/fonts/Satoshi/Satoshi-Bold.woff') format('woff')
+}
+
+@font-face {
+	font-family: 'satoshi-regular';
+	src: url('../assets/fonts/Satoshi/Satoshi-Regular.woff') format('woff')
+}
+
+@font-face {
+	font-family: 'arlita';
+	src: url('../assets/fonts/Arlita.woff') format('woff')
+}
+
 :root {
     --blue: #302D42;
     --sand: #FFFAEE;
@@ -32,7 +52,7 @@
 }
   
 body {
-    font-family: 'proxima-regular', Helvetica, Arial, sans-serif;
+    font-family: 'satoshi-regular', Helvetica, Arial, sans-serif;
     color: var(--sand);
     background: var(--sand);
 }
@@ -53,7 +73,7 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 }
 
 .text-header {
-    font-family: 'gibeon', Helvetica, Arial, sans-serif;
+    font-family: 'arlita', Helvetica, Arial, sans-serif;
     color: var(--blue);
     text-align: left;
     font-size: 48px;

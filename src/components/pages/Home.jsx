@@ -1,15 +1,25 @@
 import React from 'react';
 import HeroSection from '../HeroSection';
 import Helmet from 'react-helmet';
+import { useEffect } from 'react';
+import WorkSection from '../works/WorkSection'
 
 function Home() {
+  
+  useEffect(() => {
+    document.getElementById("works").className = 'navbar-links-active';
+  }, []);
+
   return (
-    <>
+    <div className='main-floor'>
     <Helmet>
         <title>Stephanie Zhang | Portfolio</title>
     </Helmet>
       <HeroSection />
-    </>
+      <div id='work-section'>
+        <WorkSection />
+      </div>
+    </div>
   );
 }
 

@@ -3,6 +3,11 @@
 html, body {
     position: relative;
     overflow-x:hidden;
+    background-color: linear-gradient(red, white);
+}
+
+.main-floor {
+    background-color: linear-gradient(red, white);
 }
 
 .blue-text {
@@ -18,40 +23,80 @@ html, body {
 }
 
 h1 {
-    color: var(--beige);
+    color: var(--blue);
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 36px;
     line-height: 130%;
+    margin: 0;
 }
 
 .hero-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
     overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-wrapper {
+    width: 75%;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .hero-text {
     display: flex;
     justify-content: center;
+    flex-flow: column;
+    font-family: 'satoshi-medium' Arial, Helvetica, sans-serif;
+}
+
+.hero-header-text {
+    margin-top: 15px;
+}
+
+.hero-header-subtext {
+    margin-top: 15px;
+    font-size: 24px;
 }
 
 .hero-name {
-    font-family: 'gibeon', Helvetica, Arial, sans-serif;
+    font-family: 'arlita', Helvetica, Arial, sans-serif;
     font-size: 5rem;
     color: var(--blue);
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: column;
+}
+
+.big-links {
+    font-size: 24px;
+	text-decoration: none;
+	color: var(--red);
+	border-bottom: 1px solid var(--red);
 }
 
 @media only screen and (max-width: 1024px) {
     h1 {
-       font-size: 2.5rem; 
+       font-size: 24px; 
+    }
+
+    .hero-header-subtext {
+        font-size: 18px;
     }
 
     .hero-name {
         justify-content: left;
+    }
+
+    .hero-wrapper {
+        width: 90%;
+    }
+
+    .hero-container{
+        height: 80vh;
     }
 }

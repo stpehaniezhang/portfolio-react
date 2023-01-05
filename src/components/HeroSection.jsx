@@ -1,16 +1,27 @@
 import React from 'react'
 import './HeroSection.css';
+import ArrowDown from '../assets/images/ArrowDown.svg';
+import { NavLink } from 'react-router-dom';
 
 function HeroSection() {
+
+  const scrollTo = document.getElementById('work-section');
+
+  const scrollWork = () => {
+		scrollTo.scrollIntoView({behavior: "smooth"});
+	};
   return (
     <div className='hero-container'>
-      <div className='hero-name'>stephanie <span className='red-text'>zhang</span></div>
+      <div className='hero-wrapper'>
+        <div className='hero-text-container'>
+      <div className='hero-name'>stephanie <br /> <span className='red-text'>zhang</span>
+      </div>
         <div className='hero-text'>
-            <h1 className='hero-header-text'><span className='blue-text'>hi.</span> nice to meet you <span className='star-text'>✦ </span>i’m a 
-            <span className='blue-text'> product designer</span> based in <span className='blue-text'>toronto, ca</span>
-            <span className='star-text'>✦ </span>currently working as a designer at <span className='blue-text'>icube utm </span><span className='star-text'>✦ </span> huge
-            interest in gaming, art & <span className='blue-text'>making life easier through
-            interactive designs.</span></h1>
+            <h1 className='hero-header-text'>product designer based in toronto, ca</h1>
+            <h1 className='hero-header-subtext'>learn more <NavLink to="/about" className='big-links'>about me</NavLink> or view my <NavLink onClick={scrollWork} className='big-links'>work</NavLink> below</h1>
+        </div>
+        </div>
+        <img src={ArrowDown} alt='arrow' className='img-mid'></img>
         </div>
     </div>
   )

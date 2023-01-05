@@ -12,8 +12,10 @@
     "react-modal-image": "^2.6.0",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-scroll-up": "^1.4.0",
     "react-scroll-up-button": "^1.6.4",
+    "react-scrollable-anchor": "^0.6.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

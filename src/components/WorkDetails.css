@@ -62,7 +62,7 @@ body {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    width: 95%;
+    width: 100%;
     margin-bottom: 60px;
   }
 
@@ -75,16 +75,18 @@ body {
   .info-label {
     font-size: 16px;
     color: var(--blue);
+    max-width: 24%;
   }
 
   .info-title {
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .info-desc {
     font-family: 'proxima-bold';
     margin: 0;
+    margin-bottom: 5px;
   }
 
   .text-desc {
@@ -198,7 +200,7 @@ body {
         flex-flow: column;
     }
     
-    .task-container {
+    .task-container, .project-info {
         flex-flow: wrap;
     }
 
@@ -214,6 +216,8 @@ body {
     .info-label {
         font-size: 14px;
         margin-bottom: 25px; 
+        width: 50%;
+        max-width: 50%;
     }
 
     .img-wrap, .mobile-short {

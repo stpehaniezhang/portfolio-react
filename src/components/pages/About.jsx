@@ -6,8 +6,16 @@ import '../Constants.css';
 import self from '../../assets/images/Self.png';
 import ArrowDown from '../../assets/images/ArrowDown.svg';
 import Helmet from 'react-helmet';
+import { NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
 
-function about() {
+function About() {
+
+  useEffect(() => {
+    document.getElementById("works").className = 'navbar-links';
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
     <Helmet>
@@ -17,7 +25,7 @@ function about() {
       <div className='cards-container'>
         <div className='cards-wrapper'>
           <div className='design-container'>
-              <p className='text-header'>About me</p>
+              <p className='text-header'>about me</p>
               <div className='half-text'>
               <img className='half-img' src={self} alt='Self'></img>
                 <p className='half-para blue'>
@@ -29,7 +37,7 @@ function about() {
                 <br/><br/>
                 I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
                 <br/><br/>
-                Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <span className='bold'>Pinch</span>. I'm currently finishing up
+                Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I'm currently finishing up
                 my work study experience at <span className='bold'>University of Toronto, Missisauga's ICUBE</span>.
                 <br/><br/>
                 I'm always interested in taking up new projects & opportunities! You can contact me
@@ -67,4 +75,4 @@ function about() {
   )
 }
 
-export default about
+export default About

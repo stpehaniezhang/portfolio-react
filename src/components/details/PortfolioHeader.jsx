@@ -5,6 +5,13 @@ function PortfolioHeader(props) {
 
     const detail = props.detailtitle;
 
+    const change = props.detaildesc;
+    var j = 0;
+    while (j !== detail.length){
+        change[j] = change[j].split('\n').map(str => <p className='info-desc'>{str}</p>);
+        j++;
+    }
+
   return (
     <>
         <figure className='img-wrap'>

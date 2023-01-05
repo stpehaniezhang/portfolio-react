@@ -83,14 +83,13 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
-    flex-basis: 50%;
     flex-grow: 1;
 }
 
 .down-arrow-container {
     justify-content: center;
     vertical-align: middle;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .fact-item {
@@ -128,5 +127,13 @@
 
     .main {
         width: 90%;
+    }
+
+    .fun-facts-container {
+        flex-flow: wrap;
+    }
+
+    .fact-item {
+        width: 100%;
     }
 }
