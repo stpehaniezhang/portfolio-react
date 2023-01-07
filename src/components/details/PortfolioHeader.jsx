@@ -1,5 +1,7 @@
-import React from 'react'
-import '../WorkDetails.css'
+import React from 'react';
+import '../WorkDetails.css';
+import BackArrow from '../../assets/images/BackArrow.svg';
+import { NavLink } from 'react-router-dom';
 
 function PortfolioHeader(props) {
 
@@ -13,7 +15,13 @@ function PortfolioHeader(props) {
     }
 
   return (
-    <>
+    <>  
+    <div className='back-container'>
+      <NavLink to="/" className='btn-text'>
+        <img src={BackArrow} className='back-img' alt='back-arrow'></img>
+        back to works
+        </NavLink>
+        </div>
         <figure className='img-wrap'>
             <img
               className='project-img'
@@ -25,7 +33,7 @@ function PortfolioHeader(props) {
             <div className='work-info'>
               <div className='project-header'>
                 <div className='project-label'>
-                  <p className='text-header'>{props.title}</p>
+                  <p className='text-header bottom-margin'>{props.title}</p>
                   <p className='text-desc'>{props.short}</p>
                 </div>
                 <div className='project-label'>

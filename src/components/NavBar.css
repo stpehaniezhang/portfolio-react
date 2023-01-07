@@ -108,7 +108,7 @@ html {
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  margin-top: -75px;
+  margin-top: -85px;
   width: 100%;
   z-index: 10;
 }

@@ -48,21 +48,19 @@
     --blue: #302D42;
     --sand: #FFFAEE;
     --red: #F6002F;
-    --beige: #BAB5AB;
+    --beige: #F8F1E1;
 }
   
 body {
-    font-family: 'satoshi-regular', Helvetica, Arial, sans-serif;
     color: var(--sand);
     background: var(--sand);
+	font-family: 'satoshi-medium', Arial, Helvetica, sans-serif;
 }
 
 hr {
     border: 0.5px solid var(--blue);
     width: 60%;
     box-shadow: none;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
@@ -72,6 +70,22 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 	border-bottom: 1px solid var(--red);
 }
 
+.text-title {
+	font-family: 'satoshi-bold', Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 20px;
+  }
+  
+  .text-container {
+	color: var(--blue);
+	width: 60%;
+  }  
+
+  .text-paragraph {
+	margin:0;
+	margin-top: 10px;
+  }
+
 .text-header {
     font-family: 'arlita', Helvetica, Arial, sans-serif;
     color: var(--blue);
@@ -79,7 +93,7 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
     font-size: 48px;
 	margin: 10px;
 	margin-left: 0;
-	width: 100%;
+	line-height: 48px;
 }
 
 .gibeon {
@@ -95,8 +109,16 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 	margin: 0;
   }
 
+  .margin-right {
+	margin-right: 35px;
+  }
+
   .bottom-margin {
 	margin-bottom: 15px;
+  }
+
+  .top-margin {
+	margin-top: 25px;
   }
 
   .full {
@@ -104,7 +126,7 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
   }
 
   .half {
-	width: 30%;
+	width: 48%;
   }
 
   .bold {
@@ -117,4 +139,18 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 
   .blue {
 	color: var(--blue);
+  }
+
+  .sand {
+	color: var(--sand);
+  }
+
+  @media only screen and (max-width: 1024px) {
+	.text-container {
+		width: 80%;
+	}
+
+	.quarter {
+		width: 100%;
+	}
   }

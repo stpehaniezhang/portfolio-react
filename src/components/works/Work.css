@@ -31,7 +31,7 @@
     flex: 1;
     margin: 0 1rem;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-radius: 5px;
     background-color: var(--blue);
   }
@@ -75,10 +75,12 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    border-radius: 3px;
   }
   
   .card-img:hover {
     transform: scale(1.01);
+    border-radius: 3px;
   }
   
   .card-info {
@@ -93,13 +95,13 @@
   
   .card-title {
     color: var(--sand);
-    font-family: 'proxima-bold';
+    font-family: 'satoshi-bold';
     font-size: 16px;
     margin-bottom: 10px;
   }
 
   .card-year {
-    font-family: 'proxima-regular';
+    font-family: 'satoshi-regular';
   }
 
   .card-text {
@@ -118,11 +120,33 @@
     margin-left: 30px;
   }
 
+  .about-container {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;     
+    align-items: flex-end; 
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-left: 30px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
   .portfolio-tags {
     margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+  }
+
+  .tag-container {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    visibility: visible;
   }
   
   @media only screen and (min-width: 1024px) {
@@ -132,6 +156,11 @@
   }
   
   @media only screen and (max-width: 1024px) {
+
+    .tag-container {
+      visibility: hidden;
+      display: none;
+    }
     .card {
       margin-bottom: 2rem;
     }

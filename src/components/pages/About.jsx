@@ -18,30 +18,30 @@ function About() {
 
   return (
     <>
-    <Helmet>
-      <title>Stephanie Zhang | About</title>
-    </Helmet>
-    <div className='cards'>
-      <div className='cards-container'>
-        <div className='cards-wrapper'>
-          <div className='design-container'>
-              <p className='text-header'>about me</p>
+      <Helmet>
+        <title>Stephanie Zhang | About</title>
+      </Helmet>
+      <div className='cards'>
+        <div className='cards-container'>
+          <div className='cards-wrapper'>
+            <div className='about-container'>
+              <p className='text-header full'>about me</p>
               <div className='half-text'>
-              <img className='half-img' src={self} alt='Self'></img>
+                <img className='half-img' src={self} alt='Self'></img>
                 <p className='half-para blue'>
-                  <br/>
-                Hello! I’m <span className='bold'>Stephanie</span> :-) <br/><br/>
-                I was born and raised in <span className='bold'>Vancouver</span>, Beautiful British Columbia.
-                <br/><br/>
-                I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years. 
-                <br/><br/>
-                I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
-                <br/><br/>
-                Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I'm currently finishing up
-                my work study experience at <span className='bold'>University of Toronto, Missisauga's ICUBE</span>.
-                <br/><br/>
-                I'm always interested in taking up new projects & opportunities! You can contact me
-                by <a className='links'target="_blank" rel="noreferrer"  href='mailto:stephaniey.zhang@mail.utoronto.ca'>email</a> or <a className='links' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/stephaniezhang25/'>linkedin</a>!
+                  <br />
+                  Hello! I’m <span className='bold'>Stephanie</span> :-) <br /><br />
+                  I was born and raised in <span className='bold'>Vancouver</span>, Beautiful British Columbia.
+                  <br /><br />
+                  I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years.
+                  <br /><br />
+                  I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
+                  <br /><br />
+                  Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I'm currently finishing up
+                  my work study experience at <span className='bold'>University of Toronto, Missisauga's ICUBE</span>.
+                  <br /><br />
+                  I'm always interested in taking up new projects & opportunities! You can contact me
+                  by <a className='links' target="_blank" rel="noreferrer" href='mailto:stephaniey.zhang@mail.utoronto.ca'>email</a> or <a className='links' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/stephaniezhang25/'>linkedin</a>!
                 </p>
               </div>
               <div className='down-arrow-container'>
@@ -52,25 +52,25 @@ function About() {
                 <div className='fact-item'>
                   <p className='text-desc blue'>gaming</p>
                   <p className='project-desc blue'>I currently play competitive <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate Call of Duty</a> for University of Toronto.
-                  <br/><br/>I also used to play CSGO and other FPS games.</p>
+                    <br /><br />I also used to play CSGO and other FPS games.</p>
                 </div>
                 <div className='fact-item'>
                   <p className='text-desc blue'>art</p>
-                  <p className='project-desc blue'>I’ve been a self-taught traditional artist since 2014. 
-                  <br/><br/>Check out some of my pieces <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>here</a> :-)</p>
+                  <p className='project-desc blue'>I’ve been a self-taught traditional artist since 2014.
+                    <br /><br />Check out some of my pieces <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>here</a> :-)</p>
                 </div>
                 <div className='fact-item'>
                   <p className='text-desc blue'>music</p>
                   <p className='project-desc blue'>I played piano for 12 years, violin for 6 years and clarinet for 5 years!
-                  In high school, I was able to go to Ireland to perform along with my <a className='links' target="_blank" rel="noreferrer" href='https://byngband.com/lord-byng-band-online/'>wind ensemble</a>.
+                    In high school, I was able to go to Ireland to perform along with my <a className='links' target="_blank" rel="noreferrer" href='https://byngband.com/lord-byng-band-online/'>wind ensemble</a>.
                   </p>
                 </div>
               </div>
+            </div>
+
           </div>
-          
         </div>
       </div>
-    </div>
     </>
   )
 }

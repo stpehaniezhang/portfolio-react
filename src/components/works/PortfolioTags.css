@@ -3,7 +3,7 @@
 .tag {
     border-radius: 3px;
     border: none;
-    font-family: 'proxima-bold', Helvetica, Arial, sans-serif;
+    font-family: 'satoshi-bold', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: var(--blue);
     text-decoration: none;
@@ -21,14 +21,22 @@
     flex-flow: wrap;
 }
 
-.rebrand {
+.brand-identity {
     background: #8BFF89;
 }
 
-.case-study {
+.ui\/ux {
+    background: #FFCA7A;
+}
+
+.marketing {
+    background: #FFACF7;
+}
+
+.web {
     background: #2EFFFF;
 }
 
-.social-media-posts {
+.misc\. {
     background: #BB86FF;
 }

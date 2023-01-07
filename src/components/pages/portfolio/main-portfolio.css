@@ -4,19 +4,65 @@
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 5px;
     background-color: var(--sand);
     flex-flow: column;
     width: 95%;
     border-radius: 10px;
     overflow: hidden;
     padding-left: 0.5vw;
-    margin-top: 15px;
     padding-right: 0.5vw;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    background-color: var(--sand);
+    flex-flow: column;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.red-container {
+    background-color: var(--red);
+    color: var(--sand);
+}
+
+.beige-container {
+    background-color: var(--beige);
+}
+
+.blue-container {
+    background-color: var(--blue);
+}
+
+.container-img {
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.img-portfolio:hover, .img-portfolio-half:hover {
+    transform: scale(1.005);
+  }
+
+.img-portfolio {
+    width: 100%;
+    transition: all 0.2s linear;
+}
+.img-portfolio-half {
+    width: 48.5%;
+    transition: all 0.2s linear;
 }
 
 .img-wrap-two {
@@ -45,6 +91,8 @@
     margin-right: 55px;
 }
 
+
+
 .reg-img {
     width: 100%;
     margin-bottom: 20px;
@@ -61,6 +109,16 @@
 }
 
 .half-img:hover {
+    transform: scale(1.01);
+}
+
+.small-img {
+    width: 35%;
+    transition: all 0.2s linear;
+    margin-right: 35px;
+}
+
+.small-img:hover {
     transform: scale(1.01);
 }
 
@@ -112,6 +170,11 @@
         vertical-align: bottom;
     }
 
+    .small-img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .half-text {
         flex-flow: wrap;
     }
@@ -129,11 +192,21 @@
         width: 90%;
     }
 
-    .fun-facts-container {
+    .fun-facts-container, .container-img {
         flex-flow: wrap;
     }
 
-    .fact-item {
+    .fact-item, .img-portfolio-half {
         width: 100%;
+    }
+
+    .img-portfolio-half {
+        margin-top: 25px;
+    }
+
+    .container-img {
+        width: 85%;
+        margin-top: 25px;
+        border-radius: 5px;
     }
 }

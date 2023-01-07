@@ -47,3 +47,11 @@
             </div>
 
           import ModalImage from "react-modal-image";
+
+          <PortfolioTasks
+          tasktitle={['new brand identity','new web + dashboard','marketing','misc..']}
+          taskdesc={['complete new brand identity including logo, colours and designs',
+          'redesign existing website & create a new dashboard to help move the event online due to COVID',
+          'create posts to promote the event on misc. platforms',
+          'merch and swag designs, posters and hacker/sponsor packages etc.']}
+        />

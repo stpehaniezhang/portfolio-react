@@ -8,6 +8,7 @@ function Home() {
   
   useEffect(() => {
     document.getElementById("works").className = 'navbar-links-active';
+    window.setTimeout( ()=>{ window.scrollTo(0,0) }, 50 );
   }, []);
 
   return (

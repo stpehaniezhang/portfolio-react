@@ -8,6 +8,36 @@ body {
     color: var(--red);
 }
 
+.text-title {
+  font-family: 'satoshi-bold' Arial, Helvetica, sans-serif;
+}
+
+.text-container {
+  color: var(--blue);
+}
+
+.btn-text, .back-container {
+  margin:0;
+  color: var(--blue);
+}
+
+.btn-text {
+  text-decoration: none;
+}
+
+.back-img {
+  width: 15px;
+  margin-right: 10px;
+}
+.back-container {
+  display: flex;
+  flex-flow: row;
+  width: 90%;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 .img-wrap {
     margin: 0 auto;
     position: relative;
@@ -46,7 +76,7 @@ body {
 
   .design-container {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
     margin: 0 auto;
   }
@@ -84,13 +114,13 @@ body {
   }
 
   .info-desc {
-    font-family: 'proxima-bold';
+    font-family: 'satoshi-bold';
     margin: 0;
     margin-bottom: 5px;
   }
 
   .text-desc {
-    font-family: 'proxima-bold';
+    font-family: 'satoshi-bold';
     margin: 0;
   }
 
@@ -192,7 +222,7 @@ body {
   }
 
 @media only screen and (max-width: 1024px) {
-    .main-container, .work-wrapper {
+    .main-container, .work-wrapper, .back-container {
       width: 95%;
     }
 
@@ -221,7 +251,7 @@ body {
     }
 
     .img-wrap, .mobile-short {
-        padding-top: 50%;
+        padding-top: 40%;
     }
 
     .mobile-long {

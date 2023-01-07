@@ -84,7 +84,7 @@ h1 {
        font-size: 24px; 
     }
 
-    .hero-header-subtext {
+    .hero-header-subtext, .big-links {
         font-size: 18px;
     }
 
