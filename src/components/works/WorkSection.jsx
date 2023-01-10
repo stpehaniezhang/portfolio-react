@@ -3,7 +3,7 @@ import WorkCard from './WorkCard'
 import './Work.css'
 import htv from '../../assets/images/HTV/HTV.svg'
 import pinch from '../../assets/images/Pinch/Pinch.svg'
-import icube from '../../assets/images/ICUBE.svg'
+import icube from '../../assets/images/ICUBE/ICUBE.svg'
 import arc from '../../assets/images/arc.svg'
 import stegvision from '../../assets/images/stegvision.svg'
 import Arrow from '../../assets/images/Arrow.svg';
@@ -45,7 +45,7 @@ function WorkSection() {
               year='1.5 years'
               text="Pinch's mission is to provide local couriers & restaurants a platform to 
               keep their orders in their own hands."
-              tag={['brand-identity', 'web', 'ui/ux', 'marketing', 'misc.']}
+              tag={['brand-identity', 'web', 'ui/ux', 'marketing']}
               path='/pinch'
             />
           </ul>
@@ -70,10 +70,10 @@ function WorkSection() {
               src={stegvision}
               title='stegvision'
               year='3 weeks'
-              text='StegVision has developed a patent pending anti-counterfeit technology 
-              that can solve mission critical problems across industry.'
+              text='StegVision has developed a technology 
+              that can solve critical problems across industry.'
               tag={['web', 'ui/ux']}
-              path='/home'
+              path='/stegvision'
             />
           </ul>
         </div>

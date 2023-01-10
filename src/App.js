@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Hackthevalley from './components/pages/portfolio/Hackthevalley';
 import Pinch from './components/pages/portfolio/Pinch';
 import Icube from './components/pages/portfolio/Icube';
+import Stegvision from './components/pages/portfolio/Stegvision';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/hackthevalley' element={<Hackthevalley/>}/>
         <Route exact path='/pinch' element={<Pinch/>}/>
         <Route exact path='/icube' element={<Icube/>}/>
+        <Route exact path='/stegvision' element={<Stegvision/>}/>
       </Routes>
     </Router>
     <Footer />

@@ -59,6 +59,7 @@
 .img-portfolio {
     width: 100%;
     transition: all 0.2s linear;
+    border-radius: 5px;
 }
 .img-portfolio-half {
     width: 48.5%;
@@ -202,6 +203,7 @@
 
     .img-portfolio-half {
         margin-top: 25px;
+        border-radius: 5px;
     }
 
     .container-img {

@@ -40,6 +40,11 @@
 }
 
 @font-face {
+	font-family: 'satoshi-light';
+	src: url('../assets/fonts/Satoshi/Satoshi-Light.woff') format('woff')
+}
+
+@font-face {
 	font-family: 'arlita';
 	src: url('../assets/fonts/Arlita.woff') format('woff')
 }
@@ -81,6 +86,34 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 	width: 60%;
   }  
 
+  .spotted-container {
+	width: 60%;
+	border-color: var(--red);
+	border-radius: 5px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 50px;
+	text-align: center;
+  }
+
+  button {
+	text-decoration: none;
+	box-shadow: none;
+	background-color: var(--red);
+	border: none;
+	color: var(--sand);
+	font-family: 'satoshi-bold', Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 14px;
+	margin-top: 20px;
+	transition: all 0.2s linear;
+  }
+
+  button:hover {
+	transform: scale(0.98);
+  }
+
   .text-paragraph {
 	margin:0;
 	margin-top: 10px;
@@ -109,6 +142,10 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 	margin: 0;
   }
 
+  .padding-top {
+	padding-top: 0;
+  }
+  
   .margin-right {
 	margin-right: 35px;
   }
@@ -130,7 +167,7 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
   }
 
   .bold {
-	font-family: 'proxima-bold', Arial, Helvetica, sans-serif;
+	font-family: 'satoshi-bold', Arial, Helvetica, sans-serif;
   }
 
   .quarter {

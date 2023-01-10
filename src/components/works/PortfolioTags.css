@@ -40,3 +40,9 @@
 .misc\. {
     background: #BB86FF;
 }
+
+@media only screen and (max-width: 1024px) {
+    .tag {
+        font-family: 'satoshi-regular', Arial, Helvetica, sans-serif;
+    }
+}

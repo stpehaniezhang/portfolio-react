@@ -7,6 +7,8 @@ function WorkCard(props) {
 
   const tagStyle = props.tag;
 
+  //<span className='card-year'>  ―  {props.year}</span>
+
   return (
     <>
       <li className='card'>
@@ -20,7 +22,7 @@ function WorkCard(props) {
           </figure>
           <div className='card-info'>
             <div>
-                <h5 className='card-title'>{props.title}<span className='card-year'>  ―  {props.year}</span></h5>
+                <h5 className='card-title'>{props.title}</h5>
                 <h5 className='card-text'>{props.text}</h5>
             </div>
             <div className='portfolio-tags'>

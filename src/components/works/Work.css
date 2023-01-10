@@ -167,4 +167,8 @@
     .cards-container {
       width: 90%;
     }
+
+    .card-text {
+      font-family: 'satoshi-light', Arial, Helvetica, sans-serif;
+    }
   }

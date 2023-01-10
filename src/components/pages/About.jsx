@@ -38,7 +38,7 @@ function About() {
                   I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
                   <br /><br />
                   Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I'm currently finishing up
-                  my work study experience at <span className='bold'>University of Toronto, Missisauga's ICUBE</span>.
+                  my work study experience at <span className='bold'>University of Toronto, Missisauga's <NavLink to="/icube" className='links'>ICUBE</NavLink></span>.
                   <br /><br />
                   I'm always interested in taking up new projects & opportunities! You can contact me
                   by <a className='links' target="_blank" rel="noreferrer" href='mailto:stephaniey.zhang@mail.utoronto.ca'>email</a> or <a className='links' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/stephaniezhang25/'>linkedin</a>!
