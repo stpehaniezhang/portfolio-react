@@ -9,6 +9,7 @@ import Hackthevalley from './components/pages/portfolio/Hackthevalley';
 import Pinch from './components/pages/portfolio/Pinch';
 import Icube from './components/pages/portfolio/Icube';
 import Stegvision from './components/pages/portfolio/Stegvision';
+import Dev from './components/pages/portfolio/Dev';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/pinch' element={<Pinch/>}/>
         <Route exact path='/icube' element={<Icube/>}/>
         <Route exact path='/stegvision' element={<Stegvision/>}/>
+        <Route exact path='/dev' element={<Dev/>}/>
       </Routes>
     </Router>
     <Footer />

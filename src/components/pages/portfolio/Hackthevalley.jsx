@@ -47,18 +47,19 @@ function Hackthevalley() {
       <div className='container blue-container'>
         <Paragraph
           title='goal'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p="Looking at Hack the Valley's previous branding, it was unattractive and unidentifyable. I was tasked to 
+          create a new logo and brand identity, with free creative reign. My ultimate goal was to create a logo & identity that can be
+          easily recognized as ~ HTV ~ while keeping it simple and minimalistic."
           colour='sand'
         />
       </div>
       <div className='container beige-container'>
         <Paragraph
           title='inspiration'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='It was important to me that the brand and identity had a playful vibe, in order to not look
+          intimidating to newcomers. For the logo, I wanted it to have more connection with the name and origin
+          of Hack the Valley, while keeping the "tech-y" look. For the rest of the branding, I decided to stick 
+          with a very familiar look, while adding our own twist.'
           colour=''
         />
         <div className='container-img'>
@@ -68,9 +69,9 @@ function Hackthevalley() {
       <div className='container'>
         <Paragraph
           title='user flow diagram'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='Following, I created a user flow diagram that allowed the team to view the general
+          structure of the website. As we were in a time crunch, this was helpful to allow the 
+          web development team to start on the back-end early.'
           colour=''
         />
         <div className='container-img'>
@@ -81,9 +82,9 @@ function Hackthevalley() {
       <div className='container'>
         <Paragraph
           title='wireframe'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='After discussing the diagram with the team, I transformed them into lo-fi wireframes. In this stage,
+          I decided to focus more on placement rather than more detailed aspects. This wireframe aided with having 
+          more direction when creating the hi-fi prototype.'
           colour=''
         />
         <div className='container-img'>
@@ -93,9 +94,8 @@ function Hackthevalley() {
       <div className='container blue-container'>
         <Paragraph
           title='branding'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='As said previously, I wanted the logo to have more connection with its name and origin. In the finalized
+          logo, I incorporated such as valleys'
           colour='sand'
         />
         <div className='container-img'>
@@ -105,9 +105,9 @@ function Hackthevalley() {
       <div className='container'>
         <Paragraph
           title='website'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='The website was designed with the same website content as the previous, however "reskinned".
+          I was heavily inspired with incorporating different aspects of programming, such as the terminal/console log
+          and text decorations that resemble code (i.e. console.log("")'
           colour=''
         />
         <div className='container-img'>
@@ -137,9 +137,8 @@ function Hackthevalley() {
         <div className='container beige-container'>
           <Paragraph
             title='marketing, swag & misc.'
-            p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+            p="While Hack the Valley 5 was online, Hack the Valley 7 was in person in October '22. I was tasked 
+            with creating stickers, packages, nametags, room signs and lastly, merch for both executives and hackers. '"
             colour=''
           />
           <div className='container-img'>

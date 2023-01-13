@@ -8,7 +8,7 @@ import Arrow from '../../../assets/images/Arrow.svg';
 import Paragraph from '../../details/Paragraph.jsx';
 import Unavailable from '../../details/Unavailable';
 
-function Icube() {
+function Dev() {
 
   useEffect(() => {
     document.getElementById("works").className = 'navbar-links-active';
@@ -18,7 +18,7 @@ function Icube() {
   return (
     <>
       <Helmet>
-        <title>Stephanie Zhang | ICUBE</title>
+        <title>Stephanie Zhang | Front End</title>
       </Helmet>
       <div className='main'>
         <ScrollToTop showUnder={160} style={{ bottom: 10, right: 10, zIndex: 1000 }}>
@@ -26,12 +26,12 @@ function Icube() {
         </ScrollToTop>
         <PortfolioHeader
           src={ICUBEbanner}
-          title='icube work study'
+          title='front-end development'
           short='The home of Social Entrepreneurship at UofT'
           desc='ICUBE is the home of Social Entrepreneurship and early-stage start-ups at UTM, 
           offering resources, programs, workshops and mentorship for people who are changing the world.'
-          detailtitle={['role', 'duration', 'tools', 'type']}
-          detaildesc={['graphic', '4 months', 'figma \n bubble.io', 'UI/UX']}
+          detailtitle={['role', 'duration', 'libraries & languages']}
+          detaildesc={['freelance developer', '2 years', 'javascript \n HTML/CSS \n react']}
         />
       </div>
       <div className='container'>
@@ -57,4 +57,4 @@ function Icube() {
   )
 }
 
-export default Icube
+export default Dev

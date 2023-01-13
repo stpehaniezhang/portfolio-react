@@ -56,27 +56,27 @@ function Pinch() {
       <div className='container beige-container'>
         <Paragraph
           title='the problem'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='Food delivery apps have been on the rise, however, businesses and couriers have taken a hit
+          as the apps take a huge percentage of commission. This has caused businesses to price their 
+          food for higher on food delivery apps, with little return. In addition, businesses are blamed 
+          for majority of issues that arise, when that have no control over the service past preparing the food.'
           colour=''
         />
       </div>
       <div className='container blue-container'>
         <Paragraph
           title='the challenge'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='The challenge is creating an app that allows restaurants and small businesses to keep orders in their
+          own hands. Pinch is not just a regular delivery app, but rather a stage to spotlight businesses on.'
           colour='sand'
         />
       </div>
       <div className='container'>
         <Paragraph
           title='research & competitor analysis'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='To begin building the project, I conducted research on the other competitors in the market. Notably,
+          apps like Uber Eats, Door Dash, GrubHub, Skip the Dishes...Upon initially looking at their apps, it appears
+          that they all looked fairly similar, suggesting that consumers favour ____. '
           colour=''
         />
         <div className='container-img'>
@@ -99,11 +99,11 @@ function Pinch() {
       <div className='container beige-container'>
         <Paragraph
           title='mapping the apps'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='My team and I decided on creating 3 apps for this project; Customer, Courier, and Business. Therefore,
+          a flow was created in order to map out the screens. It is also important to note that a lot of our
+          features were not included in this flow, as we wanted to create an initial base app first.'
           colour=''
-        />
+        /> 
         <div className='container-img'>
           <img src={Pinch4} alt='inspiration' className='img-portfolio'></img>
         </div>
@@ -111,9 +111,9 @@ function Pinch() {
       <div className='container blue-container'>
         <Paragraph
           title='brand identity'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='Discussing with the CEO of Pinch, he brought up that he wanted the logo to be "fingers pinching" in a 
+          hungry colour. The hungry colour I decided to choose is yellow, as there are a lot of food delivery
+          apps that have red or orange as their primary colour. In addition, I picked 4 colours'
           colour='sand'
         />
         <div className='container-img'>
@@ -123,9 +123,7 @@ function Pinch() {
       <div className='container'>
         <Paragraph
           title='final prototype'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='The final prototype for V1 was finished in a 2 week sprint. '
           colour=''
         />
         <div className='container-img'>
@@ -136,9 +134,9 @@ function Pinch() {
       <div className='container'>
         <Paragraph
           title='special features'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='In our courier and business apps, we have introduced the courier marketplace and the store 
+          marketplace respectively. This helps the communication between courier and business to be increased,
+          which decreases misunderstandings.'
           colour=''
         />
         <div className='container-img'>
@@ -160,9 +158,7 @@ function Pinch() {
       <div className='container beige-container'>
         <Paragraph
           title='website'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='The website provides general information on Pinch.'
           colour=''
         />
         <div className='container-img'>
@@ -172,27 +168,26 @@ function Pinch() {
       <div className='container blue-container'>
         <Paragraph
           title='reflections'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='Pinch was my first big, big project that I have done. In addition, we were on a very tight timeline
+          in order to get the initial versions working. This meant that I had to
+          plan my time very carefully, and to make sure that everything I did was efficient. Furthermore, it was
+          also one of my first mobile designs. All in all, Pinch really tested me, and I was able to push myself
+          to adapt to the areas where I lacked experience.'
           colour='sand'
         />
       </div>
       <div className='container blue-container padding-top'>
         <Paragraph
           title='what i would have done differently'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p="While I did do an immense amount of research in order to tackle my first mobile design, looking back,
+          there are still a lot of UI/UX problems that I would have done differently now. Also, "
           colour='sand'
         />
       </div>
       <div className='container beige-container'>
         <Paragraph
           title='slide deck'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+          p='During our time as a team for Pinch,'
           colour=''
         />
         <div className='container-img'>

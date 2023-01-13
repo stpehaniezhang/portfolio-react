@@ -64,7 +64,7 @@ function WorkSection() {
               year='1 year'
               text='The Ultimate CA Bot.'
               tag={['brand-identity', 'web', 'ui/ux', 'marketing', 'misc.']}
-              path='/home'
+              path='/dev'
             />
             <WorkCard
               src={stegvision}
