@@ -31,7 +31,7 @@ function About() {
                 <p className='half-para blue'>
                   <br />
                   Hello! I’m <span className='bold'>Stephanie</span> :-) <br /><br />
-                  I was born and raised in <span className='bold'>Vancouver</span>, Beautiful British Columbia.
+                  I was born and raised in <span className='bold'>Vancouver</span>, British Columbia.
                   <br /><br />
                   I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years.
                   <br /><br />
@@ -50,17 +50,17 @@ function About() {
               </div>
               <div className='fun-facts-container'>
                 <div className='fact-item'>
-                  <p className='text-desc blue'>gaming</p>
+                  <p className='text-desc red'>gaming</p>
                   <p className='project-desc blue'>I currently play competitive <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate Call of Duty</a> for University of Toronto.
                     <br /><br />I also used to play CSGO and other FPS games.</p>
                 </div>
                 <div className='fact-item'>
-                  <p className='text-desc blue'>art</p>
+                  <p className='text-desc red'>art</p>
                   <p className='project-desc blue'>I’ve been a self-taught traditional artist since 2014.
-                    <br /><br />Check out some of my pieces <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>here</a> :-)</p>
+                    <br /><br />Check out some of my pieces <a className='links' target="_blank" rel="noreferrer" href='https://drive.google.com/drive/folders/1KWwyRb0VZ6WPYxe9XzoSnlpm1y6-qt13?usp=sharing'>here</a> :-)</p>
                 </div>
                 <div className='fact-item'>
-                  <p className='text-desc blue'>music</p>
+                  <p className='text-desc red'>music</p>
                   <p className='project-desc blue'>I played piano for 12 years, violin for 6 years and clarinet for 5 years!
                     In high school, I was able to go to Ireland to perform along with my <a className='links' target="_blank" rel="noreferrer" href='https://byngband.com/lord-byng-band-online/'>wind ensemble</a>.
                   </p>

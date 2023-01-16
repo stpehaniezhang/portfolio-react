@@ -14,7 +14,7 @@
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    width: 80%;
+    width: 70%;
   }
   
   .cards-wrapper {
@@ -30,8 +30,7 @@
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding: 25px;
     border-radius: 5px;
     background-color: var(--blue);
   }
@@ -40,7 +39,6 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
   }
@@ -48,9 +46,10 @@
   .card-wrap {
     margin: 0 auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     padding-top: 67%;
     overflow: hidden;
+    border-radius: 5px;
   }
   
   .fade-img {
@@ -60,6 +59,7 @@
 
   h5 {
     margin: 0;
+    font-weight: 400;
   }
   
   .card-img {
@@ -75,7 +75,7 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
-    border-radius: 3px;
+    border-radius: 5px;
   }
   
   .card-img:hover {
@@ -85,8 +85,6 @@
   
   .card-info {
     padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;  
     flex-direction: column; 
     height: 100%;
@@ -96,7 +94,7 @@
   .card-title {
     color: var(--sand);
     font-family: 'satoshi-bold';
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
 
@@ -106,7 +104,7 @@
 
   .card-text {
     color: var(--sand);
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .design-container {
@@ -154,9 +152,8 @@
       display: flex;
     }
   }
-  
-  @media only screen and (max-width: 1024px) {
 
+  @media only screen and (max-width: 82em){
     .tag-container {
       visibility: hidden;
       display: none;
@@ -169,6 +166,14 @@
     }
 
     .card-text {
-      font-family: 'satoshi-light', Arial, Helvetica, sans-serif;
+      font-size: 12px;
     }
-  }
+
+    .card-title {
+      font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 62em) {
+
+}

@@ -66,7 +66,7 @@ h1 {
 
 .hero-name {
     font-family: 'arlita', Helvetica, Arial, sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
     color: var(--blue);
     display: flex;
     flex-flow: column;
@@ -79,24 +79,29 @@ h1 {
 	border-bottom: 1px solid var(--red);
 }
 
-@media only screen and (max-width: 1024px) {
-    h1 {
-       font-size: 24px; 
-    }
-
-    .hero-header-subtext, .big-links {
-        font-size: 18px;
-    }
-
+@media only screen and (max-width: 82em){
     .hero-name {
-        justify-content: left;
+        font-size: 5em;
     }
-
-    .hero-wrapper {
-        width: 90%;
-    }
-
-    .hero-container{
-        height: 80vh;
-    }
+}
+@media only screen and (max-width: 62em) {
+    h1 {
+        font-size: 24px; 
+     }
+ 
+     .hero-header-subtext, .big-links {
+         font-size: 18px;
+     }
+ 
+     .hero-name {
+         justify-content: left;
+     }
+ 
+     .hero-wrapper {
+         width: 90%;
+     }
+ 
+     .hero-container{
+         height: 80vh;
+     }
 }

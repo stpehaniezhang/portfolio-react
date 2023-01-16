@@ -213,7 +213,21 @@ html {
     align-items: center;
   }
   
-  @media only screen and (max-width: 1024px) {
+
+  @media only screen and (max-width: 82em){
+    body {
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width: 62em) {
+    body {
+        background-color: blue;
+    }
+
+    .navbar {
+      margin-top: 0;
+    }
+
     .nightmode-container, .logo-container{
       visibility: hidden;
     }
@@ -221,6 +235,7 @@ html {
     .navbar-container{
       height: 60%;
       flex-direction: column;
+      box-shadow: none;
     }
 
     header {
@@ -237,6 +252,7 @@ html {
     header .nav-btn {
       visibility: visible;
       opacity: 1;
+      margin-top: 0;
     }
   
     header nav {
