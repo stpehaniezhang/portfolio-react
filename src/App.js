@@ -10,10 +10,15 @@ import Pinch from './components/pages/portfolio/Pinch';
 import Icube from './components/pages/portfolio/Icube';
 import Stegvision from './components/pages/portfolio/Stegvision';
 import Dev from './components/pages/portfolio/Dev';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <>
+    <Helmet>
+      <title>From Helmet</title>
+      <meta name="description" content="From Helmet" />
+    </Helmet>
     <Router>
       <NavBar/>
       <Routes>

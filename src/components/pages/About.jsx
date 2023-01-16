@@ -20,7 +20,7 @@ function About() {
     <>
       <Helmet>
         <title>Stephanie Zhang | About</title>
-        <meta name="description" content="I was born and raised in Vancouver, British Columbia." />
+        <meta name="description" content="I was born and raised in Vancouver, British Columbia." data-react-helmet="true"/>
       </Helmet>
       <div className='cards'>
         <div className='cards-container'>
