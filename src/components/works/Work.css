@@ -155,15 +155,12 @@
   }
 
   @media only screen and (max-width: 82em){
-    .tag-container {
-      visibility: hidden;
-      display: none;
-    }
-    .card {
-      margin-bottom: 2rem;
-    }
     .cards-container {
       width: 90%;
+    }
+
+    .card {
+      padding: 20px;
     }
 
     .card-text {
@@ -176,5 +173,11 @@
 
 }
 @media only screen and (max-width: 62em) {
-
+  .tag-container {
+    visibility: hidden;
+    display: none;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
 }

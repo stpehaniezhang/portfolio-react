@@ -83,6 +83,14 @@ h1 {
     .hero-name {
         font-size: 5em;
     }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .hero-container {
+        height: 85vh;
+    }
 }
 @media only screen and (max-width: 62em) {
     h1 {

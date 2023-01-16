@@ -47,7 +47,7 @@ function Icube() {
       <div className='container'>
         <Unavailable
           title='this work is under NDA!'
-          p='I would love to share about my experiences working at ICUBE! If you would like to hear, contact me!'
+          p='I would love to share more about my experiences working at ICUBE! If you would like to hear, contact me!'
           button='email me :-)'
           target='_blank'
           href='mailto:stephaniey.zhang@mail.utoronto.ca'

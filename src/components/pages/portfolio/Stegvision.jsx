@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './main-portfolio.css';
 import Helmet from 'react-helmet';
-import ICUBEbanner from '../../../assets/images/ICUBE/ICUBEbanner.svg';
+import Stegbanner from '../../../assets/images/Stegvision/StegvisionBanner.svg';
 import PortfolioHeader from '../../details/PortfolioHeader';
 import ScrollToTop from "react-scroll-up";
 import Arrow from '../../../assets/images/Arrow.svg';
@@ -24,7 +24,7 @@ function Stegvision() {
           <img src={Arrow} alt='Scroll to Top'></img>
         </ScrollToTop>
         <PortfolioHeader
-          src={ICUBEbanner}
+          src={Stegbanner}
           title='stegvision'
           short='A technological breakthrough achieved'
           desc='StegVision has developed patent pending anti-counterfeit technology that can solve mission critical problems across industry.'
