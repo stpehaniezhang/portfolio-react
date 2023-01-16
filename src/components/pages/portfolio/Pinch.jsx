@@ -37,7 +37,7 @@ function Pinch() {
           src={Pinchbanner}
           title='pinch'
           short='Your orders. Your hands. Our help.'
-          desc='Pinch’s mission is to provide local couriers and restaurants to keep their orders in their own hands. We arent building another delivery or food service, were building the stage for local courier services to be spotlighted on.'
+          desc='Pinch’s mission is to provide local couriers and restaurants to keep their orders in their own hands. We are not building another delivery or food service, we are building a stage for local courier services to be spotlighted on.'
           detailtitle={['role', 'duration', 'tools', 'type']}
           detaildesc={['founder & VP of design', '1.5 years', 'figma \n adobe illustrator', 'brand identity \n web \n UI/UX \n marketing']}
         />
