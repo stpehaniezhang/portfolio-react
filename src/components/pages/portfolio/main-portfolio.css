@@ -115,6 +115,7 @@
 
 .small-img {
     width: 35%;
+    max-width: 300px;
     transition: all 0.2s linear;
     margin-right: 35px;
 }

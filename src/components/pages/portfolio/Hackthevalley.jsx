@@ -18,6 +18,7 @@ import HTV9 from '../../../assets/images/HTV/HTV9.png';
 import HTV10 from '../../../assets/images/HTV/HTV10.png';
 import HTV11 from '../../../assets/images/HTV/HTV11.png';
 import HTV12 from '../../../assets/images/HTV/HTV12.png';
+import HTV13 from '../../../assets/images/HTV/HTV13.png';
 
 function Hackthevalley() {
 
@@ -49,7 +50,7 @@ function Hackthevalley() {
           title='goal'
           p="Looking at Hack the Valley's previous branding, it was unattractive and unidentifyable. I was tasked to 
           create a new logo and brand identity, with free creative reign. My ultimate goal was to create a logo & identity that can be
-          easily recognized as ~ HTV ~ while keeping it simple and minimalistic."
+          easily recognized as ~HTV~ while keeping it simple and minimalistic."
           colour='sand'
         />
       </div>
@@ -59,7 +60,7 @@ function Hackthevalley() {
           p='It was important to me that the brand and identity had a playful vibe, in order to not look
           intimidating to newcomers. For the logo, I wanted it to have more connection with the name and origin
           of Hack the Valley, while keeping the "tech-y" look. For the rest of the branding, I decided to stick 
-          with a very familiar look, while adding our own twist.'
+          with a very familiar look, while adding my own twist.'
           colour=''
         />
         <div className='container-img'>
@@ -94,8 +95,8 @@ function Hackthevalley() {
       <div className='container blue-container'>
         <Paragraph
           title='branding'
-          p='As said previously, I wanted the logo to have more connection with its name and origin. In the finalized
-          logo, I incorporated such as valleys'
+          p='In the finalized logo, I incorporated valleys, curly brackets along with the colour green, which is a colour
+          often associated with tech & nature.'
           colour='sand'
         />
         <div className='container-img'>
@@ -107,7 +108,7 @@ function Hackthevalley() {
           title='website'
           p='The website was designed with the same website content as the previous, however "reskinned".
           I was heavily inspired with incorporating different aspects of programming, such as the terminal/console log
-          and text decorations that resemble code (i.e. console.log("")'
+          and text decorations that resemble code (i.e. console.log(""))'
           colour=''
         />
         <div className='container-img'>
@@ -116,9 +117,7 @@ function Hackthevalley() {
         <div className='container'>
           <Paragraph
             title='dashboard'
-            p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+            p="The dashboard allows prospective participants to sign up, as well as manage their application, and view their status."
             colour=''
           />
           <div className='container-img'>
@@ -128,9 +127,10 @@ function Hackthevalley() {
         <div className='container blue-container'>
           <Paragraph
             title='thoughts & reflections'
-            p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
+            p='Working on this project with complete free creative reign really allowed me to work on my ability to build on ideas. Sometimes
+            it can be difficult to begin when you have no initial direction of what the branding or identity would look like. In addition, with the
+            limited amount of time, I had to prioritize parts of the project that I could deliver off to the other teams, as many teams were unable to
+            start and were dependent on me.'
             colour='sand'
           />
         </div>
@@ -138,7 +138,7 @@ function Hackthevalley() {
           <Paragraph
             title='marketing, swag & misc.'
             p="While Hack the Valley 5 was online, Hack the Valley 7 was in person in October '22. I was tasked 
-            with creating stickers, packages, nametags, room signs and lastly, merch for both executives and hackers. '"
+            with creating stickers, packages, nametags, room signs and lastly, merch for both executives and hackers."
             colour=''
           />
           <div className='container-img'>
@@ -156,7 +156,7 @@ function Hackthevalley() {
             <img src={HTV12} alt='inspiration' className='img-portfolio'></img>
           </div>
           <div className='container-img top-margin'>
-            <img src={HTV12} alt='inspiration' className='img-portfolio'></img>
+            <img src={HTV13} alt='inspiration' className='img-portfolio'></img>
           </div>
         </div>
       </div>

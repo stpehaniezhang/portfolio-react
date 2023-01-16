@@ -83,7 +83,7 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
   
   .text-container {
 	color: var(--blue);
-	width: 60%;
+	width: 50%;
   }  
 
   .spotted-container {
@@ -182,12 +182,17 @@ a.links, a.links:visited, a.links:hover, a.links:active, a.links:link {
 	color: var(--sand);
   }
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 82em){
 	.text-container {
-		width: 80%;
+		width: 60%;
 	}
 
 	.quarter {
 		width: 100%;
+	}
+}
+@media only screen and (max-width: 62em) {
+	.text-container {
+		width: 80%;
 	}
   }

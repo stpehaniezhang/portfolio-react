@@ -46,7 +46,7 @@ function Pinch() {
             <img src={Pinch1} alt='img' className='small-img'></img>
             <div className='quarter top-margin'>
               <p className='full-para info-title red'>achievements</p>
-              <p className='full-para blue'><span className='bold'>Finalist</span> out of 10,000 applicants chosen for an interview with <span className='bold'><a className='links' target="_blank" rel="noreferrer" href='https://www.ycombinator.com/'>YCombinator</a></span> ─ May '21 S2021 Batch</p>
+              <p className='full-para blue'><span className='bold'>Finalist</span> out of 10,000 applicants chosen for an interview with <span className='bold'><a className='links' target="_blank" rel="noreferrer" href='https://www.ycombinator.com/'>YCombinator</a></span> ─ S2021 Batch</p>
               <p className='full-para blue'><span className='bold'>Finalist</span> at <span className='bold'><a className='links' target="_blank" rel="noreferrer" href='https://www.youtube.com/watch?v=vMmSW_1SNU4'>Cooperathon</a></span>  for 'Best Tech Solution' & 'Best Overall Startup' ─ November ‘20</p>
               <p className='full-para blue'><span className='bold'>Winner</span> at <span className='bold'><a className='links' target="_blank" rel="noreferrer" href='https://www.utsc.utoronto.ca/research/hub-idea-startup'>The Hub's</a></span> annual Startup competition for seed funding ─ November ‘20</p>
             </div>
@@ -56,7 +56,7 @@ function Pinch() {
       <div className='container beige-container'>
         <Paragraph
           title='the problem'
-          p='Food delivery apps have been on the rise, however, businesses and couriers have taken a hit
+          p='Food delivery apps have been on the rise. However, businesses and couriers have taken a hit
           as the apps take a huge percentage of commission. This has caused businesses to price their 
           food for higher on food delivery apps, with little return. In addition, businesses are blamed 
           for majority of issues that arise, when that have no control over the service past preparing the food.'
@@ -74,9 +74,11 @@ function Pinch() {
       <div className='container'>
         <Paragraph
           title='research & competitor analysis'
-          p='To begin building the project, I conducted research on the other competitors in the market. Notably,
-          apps like Uber Eats, Door Dash, GrubHub, Skip the Dishes...Upon initially looking at their apps, it appears
-          that they all looked fairly similar, suggesting that consumers favour ____. '
+          p='To begin building the project, I conducted research on other competitors in the market. Notably,
+          apps like Uber Eats, Door Dash, GrubHub, Skip the Dishes...Upon looking at their apps, it appears
+          that they were all commission based (similar pricing models) and user/business/courier experiences.
+          This showed us that we had to create an app that is different in the way that it would benefit businesses and couriers,
+          however be competitive with the other apps in the consumer base.'
           colour=''
         />
         <div className='container-img'>
@@ -85,16 +87,6 @@ function Pinch() {
         <div className='container-img top-margin'>
             <img src={Pinch3} alt='inspiration' className='img-portfolio'></img>
         </div>
-      </div>
-      <hr></hr>
-      <div className='container no-margin'>
-        <Paragraph
-          title='conclusion'
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
-          colour=''
-        />
         </div>
       <div className='container beige-container'>
         <Paragraph
@@ -111,9 +103,8 @@ function Pinch() {
       <div className='container blue-container'>
         <Paragraph
           title='brand identity'
-          p='Discussing with the CEO of Pinch, he brought up that he wanted the logo to be "fingers pinching" in a 
-          hungry colour. The hungry colour I decided to choose is yellow, as there are a lot of food delivery
-          apps that have red or orange as their primary colour. In addition, I picked 4 colours'
+          p='Discussing with the CEO of Pinch, he brought up that he wanted the logo to be "fingers pinching". 
+          Using colour psychology, yellow was chosen as the primary colour as it is a "hungry" colour.'
           colour='sand'
         />
         <div className='container-img'>
@@ -123,7 +114,7 @@ function Pinch() {
       <div className='container'>
         <Paragraph
           title='final prototype'
-          p='The final prototype for V1 was finished in a 2 week sprint. '
+          p='The final prototype for V1 was finished in a 2 week sprint.'
           colour=''
         />
         <div className='container-img'>
@@ -168,7 +159,7 @@ function Pinch() {
       <div className='container blue-container'>
         <Paragraph
           title='reflections'
-          p='Pinch was my first big, big project that I have done. In addition, we were on a very tight timeline
+          p='Pinch was my first big project that I have done. In addition, we were on a very tight timeline
           in order to get the initial versions working. This meant that I had to
           plan my time very carefully, and to make sure that everything I did was efficient. Furthermore, it was
           also one of my first mobile designs. All in all, Pinch really tested me, and I was able to push myself
@@ -180,14 +171,15 @@ function Pinch() {
         <Paragraph
           title='what i would have done differently'
           p="While I did do an immense amount of research in order to tackle my first mobile design, looking back,
-          there are still a lot of UI/UX problems that I would have done differently now. Also, "
+          there are still a lot of UI/UX problems that I would have done differently now. Specifically, focus more on
+          accomodating for edge cases. I believe that there are also a lot of visibility issues that I could have avoided."
           colour='sand'
         />
       </div>
       <div className='container beige-container'>
         <Paragraph
           title='slide deck'
-          p='During our time as a team for Pinch,'
+          p='During my time working on Pinch, we had to present or "pitch" our business. The following slide deck helped move our point across visually.'
           colour=''
         />
         <div className='container-img'>
