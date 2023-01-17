@@ -1,13 +1,11 @@
 import React from 'react';
 import './PortfolioTags.css';
 
-export const STYLES = ['brand-identity', 'web', 'misc.', 'ui/ux', 'marketing'];
+export const STYLES = ['brand-identity', 'web', 'misc.', 'ui/ux', 'marketing', 'front-end'];
 
 export const PortfolioTags = ({
   onClick,
   tagStyle,
-  tagTitle,
-  link
 }) => {
 
   //<Link to={`/${link}`} key={tagStyle} className={`tag ${checkTagStyle}`}>

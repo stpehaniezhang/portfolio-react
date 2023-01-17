@@ -40,6 +40,10 @@
     background: #BB86FF;
 }
 
+.front-end {
+    background: #FFA9A9;
+}
+
 @media only screen and (max-width: 82em){
     .tag {
         font-size: 10px;

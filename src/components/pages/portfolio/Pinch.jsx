@@ -133,15 +133,6 @@ function Pinch() {
         <div className='container-img'>
           <img src={Pinch7} alt='inspiration' className='img-portfolio'></img>
         </div>
-      </div>
-      <div className='container padding-top'>
-        <Paragraph
-          title=''
-          p='I conducted extensive research focused on different collaboration philosophies, 
-          existing tools and resources, sites with invite-only and content moderation protocols, 
-          and tools for potential integrations. I also explored inspiration for the UI and navigation.'
-          colour=''
-        />
         <div className='container-img'>
           <img src={Pinch8} alt='inspiration' className='img-portfolio'></img>
         </div>
@@ -149,7 +140,7 @@ function Pinch() {
       <div className='container beige-container'>
         <Paragraph
           title='website'
-          p='The website provides general information on Pinch.'
+          p='The website provides general information on Pinch as well as provides contact information.'
           colour=''
         />
         <div className='container-img'>
