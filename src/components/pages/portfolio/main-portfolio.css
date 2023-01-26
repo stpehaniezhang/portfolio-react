@@ -52,6 +52,15 @@
     justify-content: space-between;
 }
 
+.container-vid {
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
 .img-portfolio:hover, .img-portfolio-half:hover {
     transform: scale(1.005);
   }
@@ -194,7 +203,7 @@
         width: 90%;
     }
 
-    .fun-facts-container, .container-img {
+    .fun-facts-container, .container-img, .container-vid {
         flex-flow: wrap;
     }
 
@@ -207,7 +216,7 @@
         border-radius: 5px;
     }
 
-    .container-img {
+    .container-img, .container-vid {
         width: 85%;
         margin-top: 25px;
         border-radius: 5px;
