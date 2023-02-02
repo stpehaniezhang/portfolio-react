@@ -48,7 +48,7 @@ function Dev() {
       <div className='container beige-container'>
         <Paragraph
           title='one page site'
-          p="Page for taking token inputs. Made for Asian and European division of the company. UI also designed by me."
+          p="Single page for taking token inputs. Made for Asian and European division of the company. UI also designed by me."
           colour=''
         />
         <div className='container-vid'>
