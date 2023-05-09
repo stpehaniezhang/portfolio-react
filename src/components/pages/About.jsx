@@ -52,7 +52,7 @@ function About() {
               <div className='fun-facts-container'>
                 <div className='fact-item'>
                   <p className='text-desc red'>gaming</p>
-                  <p className='project-desc blue'>I currently play female competititve Call of Duty. I also played <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate Call of Duty</a> for University of Toronto.
+                  <p className='project-desc blue'>I currently play competititve Call of Duty. I played <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate</a> for University of Toronto in 2022/2023.
                     <br /><br />I also used to play CSGO and other FPS games.</p>
                 </div>
                 <div className='fact-item'>
