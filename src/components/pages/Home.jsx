@@ -15,7 +15,7 @@ function Home() {
     <div className='main-floor'>
     <Helmet>
         <title>Stephanie Zhang | Portfolio</title>
-        <meta name="description" content="product designer based in toronto, ca" data-react-helmet="true"/>
+        <meta name="description" content="designer based in vancouver, ca" data-react-helmet="true"/>
     </Helmet>
       <HeroSection />
       <div id='work-section'>
