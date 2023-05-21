@@ -36,10 +36,10 @@ function About() {
                   <br /><br />
                   I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years.
                   <br /><br />
-                  I'm studying <span className='bold'>Economics, Statistics & Visual Studies</span> at the <span className='bold'>University of Toronto</span>, graduating in April '23.
+                  I graduated from <span className='bold'>University of Toronto</span> in April '23 with a Bachelor's in<span className='bold'>Economics, Statistics & Visual Studies</span>
                   <br /><br />
-                  Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I'm currently finishing up
-                  my work study experience at <span className='bold'>University of Toronto, Missisauga's <NavLink to="/icube" className='links'>ICUBE</NavLink></span>.
+                  Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I also completed a
+                   work study experience at <span className='bold'>University of Toronto, Missisauga's <NavLink to="/icube" className='links'>ICUBE</NavLink></span> during the 2022/2023 school year.
                   <br /><br />
                   I'm always interested in taking up new projects & opportunities! You can contact me
                   by <a className='links' target="_blank" rel="noreferrer" href='mailto:stephaniey.zhang@mail.utoronto.ca'>email</a> or <a className='links' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/stephaniezhang25/'>linkedin</a>!
