@@ -18,7 +18,7 @@ function HeroSection() {
       <div className='hero-name'>stephanie<span className='red-text'>zhang</span>
       </div>
         <div className='hero-text'>
-            <h1 className='hero-header-text'>product designer based in toronto, ca</h1>
+            <h1 className='hero-header-text'>designer based in vancouver, ca</h1>
             <h1 className='hero-header-subtext'>learn more <NavLink to="/about" className='big-links'>about me</NavLink> or view my work below</h1>
         </div>
         </div>
