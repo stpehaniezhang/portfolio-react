@@ -36,7 +36,7 @@ function About() {
                   <br /><br />
                   I’ve been a <span className='bold'>visual artist</span> for 9+ years as well as a <span className='bold'>designer & developer</span> for 4+ years.
                   <br /><br />
-                  I graduated from <span className='bold'>University of Toronto</span> in April '23 with a Bachelor's in<span className='bold'>Economics, Statistics & Visual Studies</span>
+                  I graduated from <span className='bold'>University of Toronto</span> in April '23 with a Bachelor's in<span className='bold'> Economics, Statistics & Visual Studies</span>
                   <br /><br />
                   Previously, I worked as a <span className='bold'>freelance designer & developer</span> and on my startup, <NavLink to="/pinch" className='links'>Pinch</NavLink>. I also completed a
                    work study experience at <span className='bold'>University of Toronto, Missisauga's <NavLink to="/icube" className='links'>ICUBE</NavLink></span> during the 2022/2023 school year.
