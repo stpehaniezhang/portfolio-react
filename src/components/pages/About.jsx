@@ -52,8 +52,7 @@ function About() {
               <div className='fun-facts-container'>
                 <div className='fact-item'>
                   <p className='text-desc red'>gaming</p>
-                  <p className='project-desc blue'>I currently play competititve Call of Duty. I played <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate</a> for University of Toronto in 2022/2023.
-                    <br /><br />I also used to play CSGO and other FPS games.</p>
+                  <p className='project-desc blue'>I currently play competititve Call of Duty. I played <a className='links' target="_blank" rel="noreferrer" href='https://collegecod.com/'>collegiate</a> for University of Toronto in 2022/2023.</p>
                 </div>
                 <div className='fact-item'>
                   <p className='text-desc red'>art</p>
@@ -62,7 +61,7 @@ function About() {
                 </div>
                 <div className='fact-item'>
                   <p className='text-desc red'>music</p>
-                  <p className='project-desc blue'>I played piano for 12 years, violin for 6 years and clarinet for 5 years!
+                  <p className='project-desc blue'>I played piano for 12 years, violin for 6 years and clarinet for 5 years.
                     In high school, I was able to go to Ireland to perform along with my <a className='links' target="_blank" rel="noreferrer" href='https://byngband.com/lord-byng-band-online/'>wind ensemble</a>.
                   </p>
                 </div>
